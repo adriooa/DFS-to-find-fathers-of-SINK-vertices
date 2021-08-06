@@ -5,13 +5,16 @@ This DFS generate a list of lists of father of SINKs vertices, and also downward
 ### Example:
   - Vertex 1 is SINK and downward of initial vertex, and fathers of vertex 1 is 5 and 6;
   - Vertex 2 isn't SINK but is downward of initial vertex and one of it fathers is 7;
-  - Vertex 3 isn't downward of initial vertex.
+  - Vertex 3 have only one father downward of initial vertex and it is 8.
+  - Vertex 4 isn't downward of initial vertex
   
   __Return of dfs__: 
 <pre>
-                 [[5,6], [7], []] 
-                    1     2    3
+                 [[5,6], [7], [8], []] 
+                    1     2    3   4
 </pre>
+
+#### Adictional stuff
 
 Time complexity: O(V + E), where V is the number of vertices and E is the number of edges in the graph.
 
