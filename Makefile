@@ -1,2 +1,2 @@
 run:
-	python3 letra\ C.py
+	python3 mega_dfs.py
