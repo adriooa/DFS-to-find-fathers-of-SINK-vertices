@@ -1,6 +1,7 @@
 # DFS to find fathers of SINKs vertices
 
-This DFS generate a list of lists of father of SINKs vertices, and also downward of a initial vertex.
+This DFS generate a list of lists of father of SINKs vertices, and also downward of a initial vertex.  
+OBS.: the DFS code starts at line 64  
 
 ### Example:
   - Vertex 5 is SINK and downward of initial vertex, and fathers of vertex 1 is 5 and 6;
