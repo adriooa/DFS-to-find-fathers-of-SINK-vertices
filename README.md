@@ -10,8 +10,8 @@ This DFS generate a list of lists of father of SINKs vertices, and also downward
   
   __Return of dfs__: 
 <pre>
-                 [[5,6], [7], [8], []] 
-                    1     2    3   4
+                 [[5,6], [7], [8], [], [], [], [], []] 
+                    1     2    3   4    5   6   7  8
 </pre>
 
 ### Adictional stuff
