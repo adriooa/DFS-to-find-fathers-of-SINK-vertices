@@ -8,7 +8,8 @@ This DFS generate a list of lists of father of SINKs vertices, and also downward
   - Vertex 3 isn't downward of initial vertex.
   
   __Return of dfs__: 
-<pre>            [[5,6], [7], []] 
+<pre>
+                 [[5,6], [7], []] 
                     1     2    3
 </pre>
 
