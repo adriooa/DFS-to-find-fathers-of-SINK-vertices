@@ -1,4 +1,4 @@
-# Grafos
+# DFS to find fathers of SINKs vertices
 
 This DFS generate a list of lists of father of SINKs vertices, and also downward of a initial vertex.
 
