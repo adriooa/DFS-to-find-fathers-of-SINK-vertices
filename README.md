@@ -2,7 +2,7 @@
 
 This DFS generate a list of lists of father of SINKs vertices, and also downward of a initial vertex.
 
-###Example:
+### Example:
   - Vertex 1 is SINK and downward of initial vertex, and fathers of vertex 1 is 5 and 6;
   - Vertex 2 isn't SINK but is downward of initial vertex and one of it fathers is 7;
   - Vertex 3 isn't downward of initial vertex.
