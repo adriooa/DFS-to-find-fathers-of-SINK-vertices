@@ -7,7 +7,7 @@ This DFS generate a list of lists of father of SINKs vertices, and also downward
   - Vertex 2 isn't SINK but is downward of initial vertex and one of it fathers is 7;
   - Vertex 3 isn't downward of initial vertex.
   
-  Return of dfs: [[5,6], [7], []].
+  __Return of dfs__: [[5,6], [7], []].
                     1     2    3
 
 Time complexity: O(V + E), where V is the number of vertices and E is the number of edges in the graph.
