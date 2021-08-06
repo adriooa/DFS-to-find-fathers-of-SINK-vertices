@@ -3,15 +3,15 @@
 This DFS generate a list of lists of father of SINKs vertices, and also downward of a initial vertex.
 
 ### Example:
-  - Vertex 1 is SINK and downward of initial vertex, and fathers of vertex 1 is 5 and 6;
-  - Vertex 2 isn't SINK but is downward of initial vertex and one of it fathers is 7;
-  - Vertex 3 have only one father downward of initial vertex and it is 8.
-  - Vertex 4 isn't downward of initial vertex
+  - Vertex 5 is SINK and downward of initial vertex, and fathers of vertex 1 is 5 and 6;
+  - Vertex 6 isn't SINK but is downward of initial vertex and one of it fathers is 7;
+  - Vertex 7 ave only one father downward of initial vertex and it is 8.
+  - Vertex 8 isn't downward of initial vertex
   
   __Return of dfs__: 
 <pre>
-                 [[5,6], [7], [8], [], [], [], [], []] 
-                    1     2    3   4   5   6   7   8
+                 [[], [], [], [], [5,6], [7], [8], []] 
+                  1   2   3   4     5     6    7   8
 </pre>
 
 ### Adictional stuff
