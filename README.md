@@ -14,7 +14,7 @@ This DFS generate a list of lists of father of SINKs vertices, and also downward
                     1     2    3   4
 </pre>
 
-#### Adictional stuff
+### Adictional stuff
 
 Time complexity: O(V + E), where V is the number of vertices and E is the number of edges in the graph.
 
