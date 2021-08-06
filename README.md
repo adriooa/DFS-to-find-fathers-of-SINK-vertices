@@ -12,5 +12,5 @@ Example:
 
 Time complexity: O(V + E), where V is the number of vertices and E is the number of edges in the graph.
 
-The program also print the vertices that the distance (d[X]+d[Y]) are the minium, when X and Y are the fathers of a SINK vertex
+The program also print the vertices that the distance (d[X]+d[Y]) are the minium, when X and Y are the fathers of a SINK vertex.
 Moreover, I used a Graph class and a function to read a pajek file
