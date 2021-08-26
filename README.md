@@ -15,7 +15,7 @@ OBS.: the DFS code starts at line 64
                   1   2   3   4     5     6    7   8
 </pre>
 
-### Adictional stuff
+### Additional:
 
 Time complexity: O(V + E), where V is the number of vertices and E is the number of edges in the graph.
 
